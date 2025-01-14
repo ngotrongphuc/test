@@ -1,24 +1,20 @@
-:root {
-  color-scheme: light dark;
-  supported-color-schemes: light dark;
-}
-
-table {
-  background: pink !important;
-}
-
 /* article = darkmode, section = lightmode */
 article {
   display: none !important;
 }
 
 @media (prefers-color-scheme: dark) {
+  table {
+    background: black !important;
+    background-color: black !important;
+    color: white !important;
+  }
+
   section {
     display: none !important;
   }
 
   article {
     display: flex !important;
-    background-color: green !important;
   }
 }
