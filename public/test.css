@@ -3,7 +3,7 @@
   supported-color-schemes: light dark;
 }
 html {
-  background: green;
+  background: green !important;
 }
 @media (prefers-color-scheme: dark) {
   .lightimage {
